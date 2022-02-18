@@ -6,11 +6,12 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20220204180743">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css?_v=20220204180743" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20220218120913">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css?_v=20220218120913" />
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -59,7 +60,7 @@
 				</div>
 				<div class="menu__form">
 					<div class="menu__form--wrap">
-						<p class="form--title">Замовити</p>
+						<p data-popup="#popup-form" class="form--title">Замовити</p>
 						<form class="form-call" action="#">
 							<input type="text" name="name" required placeholder="Им’я">
 							<input type="numder" name="tel" required placeholder="+38">
@@ -100,14 +101,14 @@
 			<section class="banner banner__container">
 				<div class="banner_video">
 					<video muted autoplay loop playsinline poster="img/poster.jpg">
-						<source data-src="./video/video.mp4">
+						<source src="./video/video.mp4">
 					</video>
 					<div class="banner-wels"></div>
 				</div>
 				<div class="banner__title">
 					<h1>Water Eco Life Style</h1>
 					<div class="banner__title--decorate--ibg">
-						<picture><source data-srcset="img/eco.webp" type="image/webp"><img data-src="img/eco.png" alt=""></picture>
+						<picture><source srcset="img/eco.webp" type="image/webp"><img src="img/eco.png" alt=""></picture>
 						<span class="point__puls"></span>
 					</div>
 				</div>
@@ -129,10 +130,10 @@
 								<div class="using__slide swiper-slide">
 									<h3>Оселя</h3>
 									<div class="using__slide--ibg">
-										<picture><source data-srcset="img/using.webp" type="image/webp"><img data-src="img/using.png" alt=""></picture>
+										<picture><source srcset="img/using.webp" type="image/webp"><img src="img/using.png" alt=""></picture>
 									</div>
 									<div data-showmore="items" class="block wrap__more">
-										<div data-showmore-content="2" class="block__content using__more">
+										<div data-showmore-content="1" class="block__content using__more">
 											<p>Бажаєте завжди мати якісну воду для всієї родини? Завдяки eSpring™ це просто! </p>
 											<p> Немає потреби замовляти воду і чекати на доставку. Більше не треба забруднювати довкілля шкідним пластиком, адже завдяки eSpring™ якісна та очищена вода - вже в вашій домівці!</p>
 											<p>Бажаєте завжди мати якісну воду для всієї родини? Завдяки eSpring™ це просто! </p>
@@ -143,7 +144,7 @@
 											<span>Скыть</span>
 										</button>
 										<div class="hidden__btn">
-											<button data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+											<button data-popup="#popup-form" class="btn">Замовити</button>
 										</div>
 
 									</div>
@@ -151,7 +152,7 @@
 								<div class="using__slide swiper-slide">
 									<h3>Оселя</h3>
 									<div class="using__slide--ibg">
-										<picture><source data-srcset="img/using.webp" type="image/webp"><img data-src="img/using.png" alt=""></picture>
+										<picture><source srcset="img/using.webp" type="image/webp"><img src="img/using.png" alt=""></picture>
 									</div>
 									<div data-showmore="items" class="block wrap__more">
 										<div data-showmore-content="2" class="block__content using__more">
@@ -165,14 +166,14 @@
 											<span>Скыть</span>
 										</button>
 										<div class="hidden__btn">
-											<button data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+											<button data-popup="#popup-form" class="btn">Замовити</button>
 										</div>
 									</div>
 								</div>
 								<div class="using__slide swiper-slide">
 									<h3>Оселя</h3>
 									<div class="using__slide--ibg">
-										<picture><source data-srcset="img/using.webp" type="image/webp"><img data-src="img/using.png" alt=""></picture>
+										<picture><source srcset="img/using.webp" type="image/webp"><img src="img/using.png" alt=""></picture>
 									</div>
 									<div data-showmore="items" class="block wrap__more">
 										<div data-showmore-content="2" class="block__content using__more">
@@ -186,7 +187,7 @@
 											<span>Скыть</span>
 										</button>
 										<div class="hidden__btn">
-											<button data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+											<button data-popup="#popup-form" class="btn">Замовити</button>
 										</div>
 									</div>
 								</div>
@@ -204,40 +205,40 @@
 							<div class="product__item swiper-slide">
 								<h3>Оселя</h3>
 								<div class="product__item_ibg">
-									<picture><source data-srcset="img/blop.webp" type="image/webp"><img data-src="img/blop.png" alt=""></picture>
+									<picture><source srcset="img/blop.webp" type="image/webp"><img src="img/blop.png" alt=""></picture>
 									<div class="product__include--ibg">
-										<picture><source data-srcset="img/product.webp" type="image/webp"><img data-src="img/product.png" alt=""></picture>
+										<picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt=""></picture>
 									</div>
 								</div>
 								<div class="product__btns">
 									<button data-popup="#product_1" class="btn btn-gray">Детальніше</button>
-									<button data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+									<button data-popup="#popup-form" class="btn">Замовити</button>
 								</div>
 							</div>
 							<div class="product__item  swiper-slide">
 								<h3>Оселя</h3>
 								<div class="product__item_ibg">
-									<picture><source data-srcset="img/blop.webp" type="image/webp"><img data-src="img/blop.png" alt=""></picture>
+									<picture><source srcset="img/blop.webp" type="image/webp"><img src="img/blop.png" alt=""></picture>
 									<div class="product__include--ibg">
-										<picture><source data-srcset="img/product.webp" type="image/webp"><img data-src="img/product.png" alt=""></picture>
+										<picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt=""></picture>
 									</div>
 								</div>
 								<div class="product__btns">
 									<button data-popup="#product_2" class="btn btn-gray">Детальніше</button>
-									<button data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+									<button data-popup="#popup-form" class="btn">Замовити</button>
 								</div>
 							</div>
 							<div class="product__item swiper-slide">
 								<h3>Оселя</h3>
 								<div class="product__item_ibg">
-									<picture><source data-srcset="img/blop.webp" type="image/webp"><img data-src="img/blop.png" alt=""></picture>
+									<picture><source srcset="img/blop.webp" type="image/webp"><img src="img/blop.png" alt=""></picture>
 									<div class="product__include--ibg">
-										<picture><source data-srcset="img/product.webp" type="image/webp"><img data-src="img/product.png" alt=""></picture>
+										<picture><source srcset="img/product.webp" type="image/webp"><img src="img/product.png" alt=""></picture>
 									</div>
 								</div>
 								<div class="product__btns">
 									<button data-popup="#product_3" class="btn btn-gray">Детальніше</button>
-									<button data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+									<button data-popup="#popup-form" class="btn">Замовити</button>
 								</div>
 							</div>
 							<div class="product__item swiper-slide">
@@ -248,36 +249,36 @@
 
 								<div class="product__item_ibg">
 
-									<picture><source data-srcset="img/blop.webp" type="image/webp"><img data-src="img/blop.png" alt=""></picture>
+									<picture><source srcset="img/blop.webp" type="image/webp"><img src="img/blop.png" alt=""></picture>
 
 
 									<div class="product__include">
 										<div class="img-comp-container">
 											<div class="img-comp-img">
-												<picture><source data-srcset="img/wotter2.webp" type="image/webp"><img data-src="img/wotter2.png" width="150" height="200"></picture>
+												<picture><source srcset="img/wotter2.webp" type="image/webp"><img src="img/wotter2.png" width="150" height="200"></picture>
 											</div>
 											<div class="img-comp-img img-comp-overlay">
-												<picture><source data-srcset="img/wotter.webp" type="image/webp"><img data-src="img/wotter.png" width="150" height="200"></picture>
+												<picture><source srcset="img/wotter.webp" type="image/webp"><img src="img/wotter.png" width="150" height="200"></picture>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="product__btns">
 									<button data-popup="#product_4" class="btn btn-gray">Детальніше</button>
-									<button data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+									<button data-popup="#popup-form" class="btn">Замовити</button>
 								</div>
 							</div>
 							<div class="product__item swiper-slide">
 								<h3>Оселя</h3>
 								<div class="product__item_ibg">
-									<picture><source data-srcset="img/blop.webp" type="image/webp"><img data-src="img/blop.png" alt=""></picture>
+									<picture><source srcset="img/blop.webp" type="image/webp"><img src="img/blop.png" alt=""></picture>
 									<div class="product__include--ibg">
-										<picture><source data-srcset="img/product2.webp" type="image/webp"><img data-src="img/product2.png" alt=""></picture>
+										<picture><source srcset="img/product2.webp" type="image/webp"><img src="img/product2.png" alt=""></picture>
 									</div>
 								</div>
 								<div class="product__btns">
 									<button data-popup="#product_5" class="btn btn-gray">Детальніше</button>
-									<button data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+									<button data-popup="#popup-form" class="btn">Замовити</button>
 								</div>
 							</div>
 						</div>
@@ -287,7 +288,7 @@
 				</div>
 			</section>
 			<section class="opportunity opportunity--ibg">
-				<picture><source data-srcset="img/opportunity.webp" type="image/webp"><img data-src="img/opportunity.png" alt=""></picture>
+				<picture><source srcset="img/opportunity.webp" type="image/webp"><img src="img/opportunity.png" alt=""></picture>
 				<div class="opportunity__container">
 					<h2>Це дасть Вам можливість:</h2>
 					<div class="opportunity__wrap">
@@ -328,7 +329,7 @@
 							</div>
 							<div class="concept__img--ibg">
 								<span data-popup="#product_1" class="point__puls"></span>
-								<picture><source data-srcset="img/concept_1.webp" type="image/webp"><img data-src="img/concept_1.png" alt=""></picture>
+								<picture><source srcset="img/concept_1.webp" type="image/webp"><img src="img/concept_1.png" alt=""></picture>
 							</div>
 						</div>
 						<div class="concept__level">
@@ -341,7 +342,7 @@
 							</div>
 							<div class="concept__img--ibg">
 								<span data-popup="#product_2" class="point__puls"></span>
-								<picture><source data-srcset="img/concept_2.webp" type="image/webp"><img data-src="img/concept_2.png" alt=""></picture>
+								<picture><source srcset="img/concept_2.webp" type="image/webp"><img src="img/concept_2.png" alt=""></picture>
 							</div>
 						</div>
 						<div class="concept__level">
@@ -354,7 +355,7 @@
 							</div>
 							<div class="concept__img--ibg">
 								<span data-popup="#product_3" class="point__puls"></span>
-								<picture><source data-srcset="img/concept_3.webp" type="image/webp"><img data-src="img/concept_3.png" alt=""></picture>
+								<picture><source srcset="img/concept_3.webp" type="image/webp"><img src="img/concept_3.png" alt=""></picture>
 							</div>
 						</div>
 						<div class="concept__level">
@@ -368,7 +369,7 @@
 							</div>
 							<div class="concept__img--ibg">
 								<span data-popup="#product_4" class="point__puls"></span>
-								<picture><source data-srcset="img/concept_4.webp" type="image/webp"><img data-src="img/concept_4.png" alt=""></picture>
+								<picture><source srcset="img/concept_4.webp" type="image/webp"><img src="img/concept_4.png" alt=""></picture>
 							</div>
 						</div>
 						<div class="concept__level">
@@ -382,7 +383,7 @@
 							</div>
 							<div class="concept__img--ibg">
 								<span data-popup="#product_5" class="point__puls"></span>
-								<picture><source data-srcset="img/concept_5.webp" type="image/webp"><img data-src="img/concept_5.png" alt=""></picture>
+								<picture><source srcset="img/concept_5.webp" type="image/webp"><img src="img/concept_5.png" alt=""></picture>
 							</div>
 						</div>
 					</div>
@@ -401,7 +402,26 @@
 							<div class="review__wrapper swiper-wrapper">
 								<div class="review__slide swiper-slide">
 									<div class="review__img--ibg">
-										<picture><source data-srcset="img/review.webp" type="image/webp"><img data-src="img/review.png" alt=""></picture>
+										<picture><source srcset="img/review.webp" type="image/webp"><img src="img/review.png" alt=""></picture>
+									</div>
+									<div class="review__main">
+										<div class="review__person">
+											<p class="review__person--name">Михаил</p>
+											<p class="review__person--age">36 лет</p>
+										</div>
+										<div class="review__text">
+											<p>Вот вам яркий пример современных тенденций - экономическая повестка сегодняшнего дня способствует повышению качества позиций, занимаемых участниками в отношении поставленных задач. Как уже неоднократно упомянуто, некоторые особенности внутренней политики являются только методом политического участия и преданы социально-демократической анафеме.</p>
+
+											<p>Вот вам яркий пример современных тенденций - экономическая повестка сегодняшнего дня способствует повышению качества позиций, занимаемых участниками в отношении поставленных задач. Как уже неоднократно упомянуто, некоторые особенности внутренней политики являются только методом политического участия и преданы социально-демократической анафеме.</p>
+										</div>
+										<div class="review__date">
+											<p>24.11.2021</p>
+										</div>
+									</div>
+								</div>
+								<div class="review__slide swiper-slide">
+									<div class="review__img--ibg">
+										<picture><source srcset="img/review.webp" type="image/webp"><img src="img/review.png" alt=""></picture>
 									</div>
 									<div class="review__main">
 										<div class="review__person">
@@ -418,24 +438,7 @@
 								</div>
 								<div class="review__slide swiper-slide">
 									<div class="review__img--ibg">
-										<picture><source data-srcset="img/review.webp" type="image/webp"><img data-src="img/review.png" alt=""></picture>
-									</div>
-									<div class="review__main">
-										<div class="review__person">
-											<p class="review__person--name">Михаил</p>
-											<p class="review__person--age">36 лет</p>
-										</div>
-										<div class="review__text">
-											<p>Вот вам яркий пример современных тенденций - экономическая повестка сегодняшнего дня способствует повышению качества позиций, занимаемых участниками в отношении поставленных задач. Как уже неоднократно упомянуто, некоторые особенности внутренней политики являются только методом политического участия и преданы социально-демократической анафеме.</p>
-										</div>
-										<div class="review__date">
-											<p>24.11.2021</p>
-										</div>
-									</div>
-								</div>
-								<div class="review__slide swiper-slide">
-									<div class="review__img--ibg">
-										<picture><source data-srcset="img/review.webp" type="image/webp"><img data-src="img/review.png" alt=""></picture>
+										<picture><source srcset="img/review.webp" type="image/webp"><img src="img/review.png" alt=""></picture>
 									</div>
 									<div class="review__main">
 										<div class="review__person">
@@ -473,16 +476,16 @@
 					</div>
 					<div class="sertificat__imgs">
 						<div class="sertificat__img">
-							<picture><source data-srcset="img/ser_1.webp" type="image/webp"><img data-src="img/ser_1.png" alt=""></picture>
+							<picture><source srcset="img/ser_1.webp" type="image/webp"><img src="img/ser_1.png" alt=""></picture>
 						</div>
 						<div class="sertificat__img">
-							<picture><source data-srcset="img/ser_2.webp" type="image/webp"><img data-src="img/ser_2.png" alt=""></picture>
+							<picture><source srcset="img/ser_2.webp" type="image/webp"><img src="img/ser_2.png" alt=""></picture>
 						</div>
 					</div>
 					<div class="sertificat__wrap">
 						<div class="sertificat__wrap--item">
 							<div class="sertificat__img--ibg">
-								<picture><source data-srcset="img/ser_3.webp" type="image/webp"><img data-src="img/ser_3.png" alt=""></picture>
+								<picture><source srcset="img/ser_3.webp" type="image/webp"><img src="img/ser_3.png" alt=""></picture>
 							</div>
 							<div class="sertificat__main-block">
 								<div class="sertificat__main-block--title">
@@ -502,7 +505,7 @@
 						</div>
 						<div class="sertificat__wrap--item">
 							<div class="sertificat__img--ibg">
-								<picture><source data-srcset="img/ser_3.webp" type="image/webp"><img data-src="img/ser_3.png" alt=""></picture>
+								<picture><source srcset="img/ser_3.webp" type="image/webp"><img src="img/ser_3.png" alt=""></picture>
 							</div>
 							<div class="sertificat__main-block">
 								<div class="sertificat__main-block--title">
@@ -532,41 +535,41 @@
 						<div class="scan__slider">
 							<div class="scan__wrapper swiper-wrapper">
 								<div class="scan__slide swiper-slide">
-									<div class="scan__slide--img">
+									<a href="img/ser_5.png" data-fancybox="gallery" class="scan__slide--img">
 										<picture>
-											<img data-src="img/ser_5.png" alt="">
+											<img src="img/ser_5.png" alt="">
 										</picture>
-									</div>
+									</a>
 									<div class="scan__slide--name">
 										<p>сертифікат на питні фонтанчики</p>
 									</div>
 								</div>
 								<div class="scan__slide swiper-slide">
-									<div class="scan__slide--img">
+									<a href="img/ser_5.png" data-fancybox="gallery" class="scan__slide--img">
 										<picture>
-											<img data-src="img/ser_6.png" alt="">
+											<img src="img/ser_5.png" alt="">
 										</picture>
-									</div>
+									</a>
 									<div class="scan__slide--name">
 										<p>сертифікат на питні фонтанчики</p>
 									</div>
 								</div>
 								<div class="scan__slide swiper-slide">
-									<div class="scan__slide--img">
+									<a href="img/ser_5.png" data-fancybox="gallery" class="scan__slide--img">
 										<picture>
-											<img data-src="img/ser_5.png" alt="">
+											<img src="img/ser_5.png" alt="">
 										</picture>
-									</div>
+									</a>
 									<div class="scan__slide--name">
 										<p>сертифікат на питні фонтанчики</p>
 									</div>
 								</div>
 								<div class="scan__slide swiper-slide">
-									<div class="scan__slide--img">
+									<a href="img/ser_5.png" data-fancybox="gallery" class="scan__slide--img">
 										<picture>
-											<img data-src="img/ser_6.png" alt="">
+											<img src="img/ser_5.png" alt="">
 										</picture>
-									</div>
+									</a>
 									<div class="scan__slide--name">
 										<p>сертифікат на питні фонтанчики</p>
 									</div>
@@ -578,7 +581,7 @@
 				</div>
 			</section>
 			<section class="ambasador opportunity--ibg">
-				<picture><source data-srcset="img/opportunity.webp" type="image/webp"><img data-src="img/opportunity.png" alt=""></picture>
+				<picture><source srcset="img/opportunity.webp" type="image/webp"><img src="img/opportunity.png" alt=""></picture>
 				<div class="ambasador__container">
 					<h2>Наші амбассадори</h2>
 					<div class="wrapper__arrow">
@@ -589,7 +592,7 @@
 								<div class="ambasador__slide swiper-slide">
 									<div class="ambasador__img--ibg">
 										<picture>
-											<img data-src="img/ambasador.png" alt="">
+											<img src="img/ambasador.png" alt="">
 										</picture>
 									</div>
 									<div class="ambasador__main">
@@ -607,13 +610,13 @@
 											</p>
 										</div>
 										<div class="ambasador__footer">
-											<a data-fancybox="video-gallery" data-data-src="https://www.youtube.com/watch?v=JNTCCRaQucU">
+											<a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=JNTCCRaQucU">
 												<svg viewBox="0 0 109 109" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<circle cx="54.0557" cy="54.0557" r="53.1548" stroke="white" stroke-width="1.80186" />
 													<path d="M79.5715 51.1186C81.974 52.5057 81.974 55.9734 79.5715 57.3604L44.2763 77.7381C41.8738 79.1252 38.8707 77.3914 38.8707 74.6172L38.8707 33.8618C38.8707 31.0877 41.8738 29.3538 44.2763 30.7409L79.5715 51.1186Z" fill="white" />
 												</svg>
 											</a>
-											<a data-fancybox="video-gallery" data-data-src="https://www.youtube.com/watch?v=JNTCCRaQucU">
+											<a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=JNTCCRaQucU">
 												<button class="btn btn-video">Дивитися відео</button>
 											</a>
 
@@ -623,7 +626,7 @@
 								<div class="ambasador__slide swiper-slide">
 									<div class="ambasador__img--ibg">
 										<picture>
-											<img data-src="img/ambasador.png" alt="">
+											<img src="img/ambasador.png" alt="">
 										</picture>
 									</div>
 									<div class="ambasador__main">
@@ -641,13 +644,13 @@
 											</p>
 										</div>
 										<div class="ambasador__footer">
-											<a data-fancybox="video-gallery" data-data-src="https://www.youtube.com/watch?v=JNTCCRaQucU">
+											<a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=JNTCCRaQucU">
 												<svg viewBox="0 0 109 109" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<circle cx="54.0557" cy="54.0557" r="53.1548" stroke="white" stroke-width="1.80186" />
 													<path d="M79.5715 51.1186C81.974 52.5057 81.974 55.9734 79.5715 57.3604L44.2763 77.7381C41.8738 79.1252 38.8707 77.3914 38.8707 74.6172L38.8707 33.8618C38.8707 31.0877 41.8738 29.3538 44.2763 30.7409L79.5715 51.1186Z" fill="white" />
 												</svg>
 											</a>
-											<a data-fancybox="video-gallery" data-data-src="https://www.youtube.com/watch?v=JNTCCRaQucU">
+											<a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=JNTCCRaQucU">
 												<button class="btn btn-video">Дивитися відео</button>
 											</a>
 
@@ -671,22 +674,22 @@
 						<div class="partner__slider">
 							<div class="partner__wrapper swiper-wrapper">
 								<div class="partner__slide--ibg swiper-slide">
-									<picture><picture><source data-srcset="img/partner.webp" type="image/webp"><img data-src="img/partner.png" alt=""></picture></picture>
+									<picture><picture><source srcset="img/partner.webp" type="image/webp"><img src="img/partner.png" alt=""></picture></picture>
 								</div>
 								<div class="partner__slide--ibg swiper-slide">
-									<picture><picture><source data-srcset="img/partner.webp" type="image/webp"><img data-src="img/partner.png" alt=""></picture></picture>
+									<picture><picture><source srcset="img/partner.webp" type="image/webp"><img src="img/partner.png" alt=""></picture></picture>
 								</div>
 								<div class="partner__slide--ibg swiper-slide">
-									<picture><picture><source data-srcset="img/partner.webp" type="image/webp"><img data-src="img/partner.png" alt=""></picture></picture>
+									<picture><picture><source srcset="img/partner.webp" type="image/webp"><img src="img/partner.png" alt=""></picture></picture>
 								</div>
 								<div class="partner__slide--ibg swiper-slide">
-									<picture><picture><source data-srcset="img/partner.webp" type="image/webp"><img data-src="img/partner.png" alt=""></picture></picture>
+									<picture><picture><source srcset="img/partner.webp" type="image/webp"><img src="img/partner.png" alt=""></picture></picture>
 								</div>
 								<div class="partner__slide--ibg swiper-slide">
-									<picture><picture><source data-srcset="img/partner.webp" type="image/webp"><img data-src="img/partner.png" alt=""></picture></picture>
+									<picture><picture><source srcset="img/partner.webp" type="image/webp"><img src="img/partner.png" alt=""></picture></picture>
 								</div>
 								<div class="partner__slide--ibg swiper-slide">
-									<picture><picture><source data-srcset="img/partner.webp" type="image/webp"><img data-src="img/partner.png" alt=""></picture></picture>
+									<picture><picture><source srcset="img/partner.webp" type="image/webp"><img src="img/partner.png" alt=""></picture></picture>
 								</div>
 							</div>
 						</div>
@@ -703,29 +706,29 @@
 							<div class="project__wrapper swiper-wrapper">
 								<div class="project__slide swiper-slide">
 									<div class="project__video--ibg">
-										<picture><picture><source data-srcset="img/project.webp" type="image/webp"><img data-src="img/project.png" alt=""></picture></picture>
-										<a data-fancybox="video-gallery" data-data-src="https://www.youtube.com/watch?v=JNTCCRaQucU"></a>
+										<picture><picture><source srcset="img/project.webp" type="image/webp"><img src="img/project.png" alt=""></picture></picture>
+										<a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=JNTCCRaQucU"></a>
 									</div>
 									<p class="name__project">Проєкт 1</p>
 								</div>
 								<div class="project__slide swiper-slide">
 									<div class="project__video--ibg">
-										<picture><picture><source data-srcset="img/project.webp" type="image/webp"><img data-src="img/project.png" alt=""></picture></picture>
-										<a data-fancybox="video-gallery" data-data-src="https://www.youtube.com/watch?v=JNTCCRaQucU"></a>
+										<picture><picture><source srcset="img/project.webp" type="image/webp"><img src="img/project.png" alt=""></picture></picture>
+										<a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=JNTCCRaQucU"></a>
 									</div>
 									<p class="name__project">Проєкт 1</p>
 								</div>
 								<div class="project__slide swiper-slide">
 									<div class="project__video--ibg">
-										<picture><picture><source data-srcset="img/project.webp" type="image/webp"><img data-src="img/project.png" alt=""></picture></picture>
-										<a data-fancybox="video-gallery" data-data-src="https://www.youtube.com/watch?v=JNTCCRaQucU"></a>
+										<picture><picture><source srcset="img/project.webp" type="image/webp"><img src="img/project.png" alt=""></picture></picture>
+										<a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=JNTCCRaQucU"></a>
 									</div>
 									<p class="name__project">Проєкт 1</p>
 								</div>
 								<div class="project__slide swiper-slide">
 									<div class="project__video--ibg">
-										<picture><picture><source data-srcset="img/project.webp" type="image/webp"><img data-src="img/project.png" alt=""></picture></picture>
-										<a data-fancybox="video-gallery" data-data-src="https://www.youtube.com/watch?v=JNTCCRaQucU"></a>
+										<picture><picture><source srcset="img/project.webp" type="image/webp"><img src="img/project.png" alt=""></picture></picture>
+										<a data-fancybox="video-gallery" data-src="https://www.youtube.com/watch?v=JNTCCRaQucU"></a>
 									</div>
 									<p class="name__project">Проєкт 1</p>
 								</div>
@@ -836,12 +839,13 @@
 							</div>
 						</div>
 						<div class="maps__value">
-							<iframe data-src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5357546.85712515!2d27.905771207503467!3d49.02980336826667!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1sru!2sua!4v1643966944730!5m2!1sru!2sua" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d20309.075323923767!2d30.4721233!3d50.4851493!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1645178763871!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 						</div>
 					</div>
 				</div>
 			</section>
 		</main>
+
 		<footer class="footer">
 			<div class="footer__container">
 				<div class="footer__right">
@@ -870,9 +874,14 @@
 							</ul>
 						</div>
 					</div>
-					<div class="life-in-eco">
-						<p>Життя в стилі ЕСО</p>
-						<a href="https://iameco.com.ua/">https://iameco.com.ua/</a>
+					<div class="life-in-eco col-2">
+						<div class="col-2-wrap">
+							<p>Життя в стилі ЕСО</p>
+							<a href="https://iameco.com.ua/">https://iameco.com.ua/</a>
+						</div>
+						<div class="col-2-wrap dow-catalog">
+							<a download href="">Завантажити <br> каталог</a>
+						</div>
 					</div>
 					<div class="language">
 						<ul>
@@ -895,7 +904,7 @@
 						</ul>
 					</nav>
 					<div class="footer__rules">
-						<p class="link-rules">Політика конфіденційності</p>
+						<p data-popup="#popup-rules" class="link-rules">Політика конфіденційності</p>
 					</div>
 					<div class="link-blender">
 						<a href="">
@@ -934,6 +943,102 @@
 	</div>
 </div>
  -->
+
+
+
+	<div id="popup-rules" aria-hidden="true" class="popup popup-rules">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">&#10006;</button>
+				<div class="popup__text rules__wrap">
+					<h2>ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ</h2>
+					<p>Адміністрація Сайту не збирає ніякої інформації про користувачів Сайту, крім тих стандартних даних, що Сайт отримує автоматично (Google Analytics). Нижченаведені положення - стандартна угода про Політику конфіденційності. Адміністрація Сайту поважає право на особисту інформацію.</p>
+					<p>Адміністрація Сайту не збирає ніякої інформації про користувачів Сайту, крім тих стандартних даних, що Сайт отримує автоматично (Google Analytics). Нижченаведені положення - стандартна угода про Політику конфіденційності. Адміністрація Сайту поважає право на особисту інформацію.</p>
+					<p>Адміністрація Сайту не збирає ніякої інформації про користувачів Сайту, крім тих стандартних даних, що Сайт отримує автоматично (Google Analytics). Нижченаведені положення - стандартна угода про Політику конфіденційності. Адміністрація Сайту поважає право на особисту інформацію.</p>
+					<ul>
+						<li>Інформацію про відвідування та використання Сайту;</l1>
+						<li>Інформацію, яку користувачі сайту надають з метою реєстрації на сайті або підписки на наші сервіси / поштові повідомлення;</l1>
+					</ul>
+					<p>Адміністрація Сайту не збирає ніякої інформації про користувачів Сайту, крім тих стандартних даних, що Сайт отримує автоматично (Google Analytics). Нижченаведені положення - стандартна угода про Політику конфіденційності. Адміністрація Сайту поважає право на особисту інформацію.</p>
+					<p>Адміністрація Сайту не збирає ніякої інформації про користувачів Сайту, крім тих стандартних даних, що Сайт отримує автоматично (Google Analytics). Нижченаведені положення - стандартна угода про Політику конфіденційності. Адміністрація Сайту поважає право на особисту інформацію.</p>
+					<p>Адміністрація Сайту не збирає ніякої інформації про користувачів Сайту, крім тих стандартних даних, що Сайт отримує автоматично (Google Analytics). Нижченаведені положення - стандартна угода про Політику конфіденційності. Адміністрація Сайту поважає право на особисту інформацію.</p>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<div id="popup__succes" aria-hidden="true" class="popup popup__succes">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _white"></button>
+				<div class="popup__text">
+					<div class="form__succes">
+						<p>Дякуємо за звернення!</p>
+						<p>Ми зв’яжемося з Вами найбижчим часом.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- чтоб вызвать этот попап выполни эту функцию 
+<script>
+	  flsModules.popup.open('#popup__succes')
+</script> -->
+
+
+
+	<div id="popup-form" aria-hidden="true" class="popup popup-form">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close _white"></button>
+				<div class="popup__text">
+					<div class="order__container">
+						<h2>Замовити</h2>
+						<div class="order__wrap">
+							<form class="form-call" action="#">
+								<input type="text" name="name" required placeholder="Им’я">
+								<input type="numder" name="tel" required placeholder="+38">
+								<input type="text" name="organisation" required placeholder="Організація">
+								<select name="form[1]" class="form">
+									<option value="1" disabled selected>Продукт</option>
+									<option value="2">Продукт №2</option>
+									<option value="3">Продукт №3</option>
+									<option value="4">Продукт №4</option>
+								</select>
+								<div class="checkbox">
+									<input id="form" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="form" class="checkbox__label"><span class="checkbox__text">Я ознайомлен з політикой компанії у відношенні до обробки персональних данних </span></label>
+								</div>
+								<div class="checkbox">
+									<input id="form-2" data-error="Ошибка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="form-2" class="checkbox__label"><span class="checkbox__text">Потрібна консультація</span></label>
+								</div>
+								<button class="btn btn-whight">Відправити</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
 	<div id="product_1" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
@@ -962,7 +1067,7 @@
 									▫️І все, чиста і корисна рідина готова до споживання.</p>
 
 							</div>
-							<button data-close data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+							<button data-popup="#popup-form" data-close class="btn">Замовити</button>
 						</div>
 					</div>
 					<div class="popup__product--slider">
@@ -1016,7 +1121,7 @@
 									▫️І все, чиста і корисна рідина готова до споживання.</p>
 
 							</div>
-							<button data-close data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+							<button data-popup="#popup-form" data-close class="btn">Замовити</button>
 						</div>
 					</div>
 					<div class="popup__product--slider">
@@ -1070,7 +1175,7 @@
 									▫️І все, чиста і корисна рідина готова до споживання.</p>
 
 							</div>
-							<button data-close data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+							<button data-popup="#popup-form" data-close class="btn">Замовити</button>
 						</div>
 					</div>
 					<div class="popup__product--slider">
@@ -1124,7 +1229,7 @@
 									▫️І все, чиста і корисна рідина готова до споживання.</p>
 
 							</div>
-							<button data-close data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+							<button data-popup="#popup-form" data-close class="btn">Замовити</button>
 						</div>
 					</div>
 					<div class="popup__product--slider">
@@ -1178,7 +1283,7 @@
 									▫️І все, чиста і корисна рідина готова до споживання.</p>
 
 							</div>
-							<button data-close data-goto-top="50" data-goto=".order" class="btn">Замовити</button>
+							<button data-popup="#popup-form" data-close class="btn">Замовити</button>
 						</div>
 					</div>
 					<div class="popup__product--slider">
@@ -1204,9 +1309,10 @@
 			</div>
 		</div>
 	</div>
-	<script src="http://code.jquery.com/jquery-3.4.1.min.js?_v=20220204180743"></script>
-	<script src="js/app.min.js?_v=20220204180743"></script>
-	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220204180743"></script>
+	<script src="http://code.jquery.com/jquery-3.4.1.min.js?_v=20220218120913"></script>
+	<script src="js/app.min.js?_v=20220218120913"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js?_v=20220218120913"></script>
+
 
 </body>
 
